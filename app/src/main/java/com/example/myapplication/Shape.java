@@ -3,10 +3,11 @@ package com.example.myapplication;
 public abstract class Shape {
     private Integer x;
     private Integer y;
-
-    protected Shape(Integer x, Integer y) {
+    private String color="blue";
+    protected Shape(Integer x, Integer y, String color) {
         this.x = x;
         this.y = y;
+        this.color=color;
     }
 
     public Integer getX() {
@@ -24,4 +25,5 @@ public abstract class Shape {
     public void setY(Integer y) {
         this.y = y;
     }
+
 }
