@@ -3,7 +3,8 @@ package com.example.myapplication;
 public abstract class Shape {
     private Integer x;
     private Integer y;
-    private String color = "purple";
+
+    String color = "cerulean";
 
     protected Shape(Integer x, Integer y) {
         this.x = x;
@@ -25,4 +26,5 @@ public abstract class Shape {
     public void setY(Integer y) {
         this.y = y;
     }
+
 }
