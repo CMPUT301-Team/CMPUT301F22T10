@@ -26,4 +26,5 @@ public abstract class Shape {
     public void setY(Integer y) {
         this.y = y;
     }
+
 }
