@@ -3,6 +3,7 @@ package com.example.myapplication;
 public abstract class Shape {
     private Integer x;
     private Integer y;
+    private String color = "purple";
 
     protected Shape(Integer x, Integer y) {
         this.x = x;
