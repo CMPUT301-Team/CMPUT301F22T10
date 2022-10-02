@@ -8,7 +8,7 @@ public class Triangle extends Shape{
 
     public Triangle(Integer x, Integer y, int x1, int y1) {
         super(x, y);
-        String color = "blue";
+
 
     }
 }
