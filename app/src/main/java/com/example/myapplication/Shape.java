@@ -3,11 +3,12 @@ package com.example.myapplication;
 public abstract class Shape {
     private Integer x;
     private Integer y;
-    private String color="blue";
-    protected Shape(Integer x, Integer y, String color) {
+    
+    String color = "cerulean";
+
+    protected Shape(Integer x, Integer y) {
         this.x = x;
         this.y = y;
-        this.color=color;
     }
 
     public Integer getX() {
